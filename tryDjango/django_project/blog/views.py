@@ -3,13 +3,13 @@ from django.shortcuts import render
 posts = [
     {
         'author': 'DYates',
-        'title': 'blogpost1',
+        'title': 'Blogpost1',
         'content': 'First post mate',
         'date': 'January 10, 2020'
     },
     {
         'author': 'DYates',
-        'title': 'blogpost2',
+        'title': 'Blogpost2',
         'content': 'Second post mate',
         'date': 'January 10, 2020'
     }
@@ -17,9 +17,10 @@ posts = [
 
 def home(request):
     context = {
-        'posts': posts
+        'posts': posts,
+        'title' : 'Home'
     }
     return render(request, 'blog/home.html', context)
 
 def about(request):
-    return render(request, 'blog/about.html')
+    return render(request, 'blog/about.html', {'title': 'about'})
