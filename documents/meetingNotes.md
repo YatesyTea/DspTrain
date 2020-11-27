@@ -110,3 +110,85 @@ UX design, UI design.
          1. In this case would be max protein.
          2. If using existing ratios would be a rules based system.
 4. Put current prepwork onto github and give link to haixia.
+
+# Meeting 3
+
+Ethics, over handling of food prefernces/ allergies. Message Ben for this.
+Section 3.2 -  Now we should have some plan.
+Declare privacy of data, add to ethics list.
+
+Usage of Docker
+
+* Easier for us to manage packages and testing
+
+Haixia suggests you don't need docker.
+Even in company it's only used for testing.
+Put up onto rented server.
+
+Experience with docker for cv.
+
+Since we're not decided what framework to go, not good to make framework yet.
+
+Advantages with django:
+
+Provides default text box.
+Quite Organised
+Don't have to create some default parts of django apps
+Remember text similarities.
+
+Response on different repos:
+
+> If using different envs then use different repos, otherwise just use the same one.
+
+## Goal For Next Week (or Two)
+
+Search for templates for Django.
+Look for the most information on them.
+
+Plan database and send to Haixia.
+
+Extras
+	3 word vector
+	known queries
+	bird algorithm
+	GA optimisation of stuff
+
+Make a big overview (generic) of how the system will be formed.
+
+Design a generic workflow.
+Try to finish first page of frontend and test it (first week of December).
+Remind about ethics form (send email to Haixia).
+
+# Meeting 4
+
+Work on a bit of writeup, and project work each week.
+
+References to peer reviewed, there's no strict restriction on non-peer though.
+
+25% is motivation and lit review.
+
+Finding a latex template to use within the project report.
+
+New ethics form may be more useful for me.
+
+Use Github, Jira, Or Trello
+
+Focus on creation of recipes for people with diabetes etc.
+
+In terms of detailed plan first page front and abckedn, please enable login w/ facebook account. - check ethics.
+
+First page -
+
+> Log in, new account.
+>
+> Do encryption (SHA 256)
+
+For backend please draft user table (more info required?)
+
+Database design - look at KB ai.
+
+Put all planning in 1 file.
+
+All resources in a folder in file dir.
+
+Don't cc in Ben for initial questions.
