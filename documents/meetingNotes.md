@@ -192,3 +192,30 @@ Put all planning in 1 file.
 All resources in a folder in file dir.
 
 Don't cc in Ben for initial questions.
+
+# Meeting 27/11
+
+latex day
+
+access of SHA 256 encrypted data in db
+
+documentation more important than code itself.
+
+Haixia creating plan, is going to email me, and I should change it accordingly.
+
+When you retrieve you need to test and retrieve.
+
+In dissertation talk about rule based, as user I input egg.
+Will you retrieve eggplant eg eggplat showing up when you type egg.
+
+Query within Django returning required elements. Look up dynamic display of content through queries.
+
+Comparison between postgress and sql grammar stays the same. There's not really that much difference.
+Some commands eg. in cmd window some stuff is different.
+
+If you use django w/ postgress wit's really easy.
+If you create class in django using python, then you can directly create database.
+
+research some more postgress.
+
+Just keep in mind that for latex when you have complicated formulas.
