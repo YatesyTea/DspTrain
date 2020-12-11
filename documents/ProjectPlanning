@@ -1,0 +1,35 @@
+# Recipe Recommender System Project Plan and Research
+
+[toc]
+
+# Introduction
+
+
+
+# Background Research
+
+
+
+# Actors
+
+Developer (myself)
+
+Users (created by me!) - Will require a username and password, then can filter down ingredients that they refuse to eat (either due to allergy or dislike).
+
+Facebook Login API - Will integrate a fb login.
+
+
+
+# Data Source
+
+[Epicurious - Recipes with Rating and Nutrition | Kaggle](https://www.kaggle.com/hugodarwood/epirecipes)
+
+While initially planning to utilise the CSV of this data, the JSON appears to have an easier format to understand w/ less hard coding required.
+The Reasoning behind this, is that the csv has 600+ columns, while the JSON has a format which groups relevant information, such as tags and ingredients.
+
+
+
+# Database Planning
+
+## User Db
+
