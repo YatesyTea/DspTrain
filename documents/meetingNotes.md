@@ -219,3 +219,60 @@ If you create class in django using python, then you can directly create databas
 research some more postgress.
 
 Just keep in mind that for latex when you have complicated formulas.
+
+# Meeting 11/12
+
+Proof on concept required.
+
+Then expand off of those points in terms of features.
+
+Keep in mind requirements, this software has a specialty. Health being in proposal.
+
+Have a running demo first, once you get it working you need to make it differ to change your software specialty.
+
+Top down - database has table called dish, ingredient list table.
+Only have dish ID, each is associated with a list of ingredients.
+You have recipe ID, and you have list of ingredients that corresponds.
+You will have another standalone table storing the ingredient ID w/ the nutrition
+
+If one recipe doesn't satisfy the user's need, then the alg w/ mix up ingredients.
+
+Look up data source for nutritional values.
+
+
+
+Ingredient and priority at 2nd level.
+
+This kind of knowledge should be stored in a special way.
+
+Frame --> for databases.
+
+
+
+### Task
+
+Do a bit of research of architectural database design for recipes.
+
+Read the marking criteria for dissertation.
+
+
+
+### Priority
+
+Setting up sprint backlogs on Jira, and assigning overall tasks from sheets provided.
+
+Criteria analysis
+
+Checking Dissertation Format, making sure that's ok
+
+Database Design
+
+Linking and implementing database + login feature
+
+Motivation / Lit review --> Prep 6 hours. Writing ---> 2 hours.
+
+
+
+One last comment --> For database apparently recipe is structured, for a query database.
+
+Research mongo/postgress.
