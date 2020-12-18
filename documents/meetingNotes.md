@@ -192,3 +192,87 @@ Put all planning in 1 file.
 All resources in a folder in file dir.
 
 Don't cc in Ben for initial questions.
+
+# Meeting 27/11
+
+latex day
+
+access of SHA 256 encrypted data in db
+
+documentation more important than code itself.
+
+Haixia creating plan, is going to email me, and I should change it accordingly.
+
+When you retrieve you need to test and retrieve.
+
+In dissertation talk about rule based, as user I input egg.
+Will you retrieve eggplant eg eggplat showing up when you type egg.
+
+Query within Django returning required elements. Look up dynamic display of content through queries.
+
+Comparison between postgress and sql grammar stays the same. There's not really that much difference.
+Some commands eg. in cmd window some stuff is different.
+
+If you use django w/ postgress wit's really easy.
+If you create class in django using python, then you can directly create database.
+
+research some more postgress.
+
+Just keep in mind that for latex when you have complicated formulas.
+
+# Meeting 11/12
+
+Proof on concept required.
+
+Then expand off of those points in terms of features.
+
+Keep in mind requirements, this software has a specialty. Health being in proposal.
+
+Have a running demo first, once you get it working you need to make it differ to change your software specialty.
+
+Top down - database has table called dish, ingredient list table.
+Only have dish ID, each is associated with a list of ingredients.
+You have recipe ID, and you have list of ingredients that corresponds.
+You will have another standalone table storing the ingredient ID w/ the nutrition
+
+If one recipe doesn't satisfy the user's need, then the alg w/ mix up ingredients.
+
+Look up data source for nutritional values.
+
+
+
+Ingredient and priority at 2nd level.
+
+This kind of knowledge should be stored in a special way.
+
+Frame --> for databases.
+
+
+
+### Task
+
+Do a bit of research of architectural database design for recipes.
+
+Read the marking criteria for dissertation.
+
+
+
+### Priority
+
+Setting up sprint backlogs on Jira, and assigning overall tasks from sheets provided.
+
+Criteria analysis
+
+Checking Dissertation Format, making sure that's ok
+
+Database Design
+
+Linking and implementing database + login feature
+
+Motivation / Lit review --> Prep 6 hours. Writing ---> 2 hours.
+
+
+
+One last comment --> For database apparently recipe is structured, for a query database.
+
+Research mongo/postgress.
