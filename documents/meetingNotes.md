@@ -276,3 +276,21 @@ Motivation / Lit review --> Prep 6 hours. Writing ---> 2 hours.
 One last comment --> For database apparently recipe is structured, for a query database.
 
 Research mongo/postgress.
+
+# Meeting 18/12
+
+Focus on this project, user's restrictions.
+
+Mongo Comment - Use case "if your database is storing company information and each company has business scope and board, call it company object and attribute has attributes, IT Software, some parts will be shared w/ other companies".
+
+First support querying nutritional facts and calories.
+
+Have nutrients for standalone columns for ease of queries.
+
+Have separate pre-processed offline dataset to send to database.
+
+have another column host the keywords --> later
+
+we have started to test data design, use 3 rows from the JSON file. (Baby steps)
+
+NLP for Python NLTK.
