@@ -294,3 +294,43 @@ have another column host the keywords --> later
 we have started to test data design, use 3 rows from the JSON file. (Baby steps)
 
 NLP for Python NLTK.
+
+# Meeting 22/01
+
+Draw Flow Chart!!!!
+
+Plan the components, for example login component
+
+Recipe retrieval component
+If you want other component design, detail the functionality and plan it.
+Eg login --> input username/email and password.
+As detailed as possible.
+
+I hope your presentation slides.
+You can describe the whole thing.
+
+After that presentation you will implement it, (by end of april).
+
+Don't think too much about decisions, take action.
+
+Choose most relevant peer review journal.
+
+Use Google Scholar, and if you are using LaTEX you can use LaTEX import.
+
+Try to search the most cited papers.
+The latest ones too.
+
+Can use harvard style referencing and citation.
+Can include harvard library, in the end you can 
+
+Message Farah about referencing.
+
+Make presentation as you go along, rather than compiling mats at end.
+
+## CV Improvements
+
+what you've done, responsibility
+
+say more about skills
+
+spend half an hour every 2 days doing leetcode or something similar.
