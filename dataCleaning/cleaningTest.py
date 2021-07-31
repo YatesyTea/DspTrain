@@ -8,22 +8,15 @@ postFile = 'cleanedRecipes.json'
 with open(priorFile) as read_file: 
     data = json.load(read_file)
 
-    # Going through data and removing Null value'd fat recipes.
+    # Going through data and removing Null value'd recipes.
     for recipe in data:
-        if recipe['fat'] == None:
-            del recipe
-        
-        elif recipe['protein'] == None:
-            del recipe
 
-        elif recipe['calories'] == None:
-            del recipe
-
-        elif recipe['sodium'] == None:
-            del recipe
-
-        elif recipe['ingredients'][0] == None or recipe['directions'][0] == None:
-            del recipe
+        important = ['fat', 'protein', 'calories', 'sodium', 'ingredients', 'directions']
+        for key, value in recipe.items():
+            if value == None and key in important:
+                print(f'{key} None --> Deleted')
+                del recipe
+                break
 
         else:
             # Open file to write to to read contents
