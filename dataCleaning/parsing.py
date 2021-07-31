@@ -1,7 +1,7 @@
 import json
 
 # Opening the file
-with open('test.json') as read_file: 
+with open('cleanedTest.json') as read_file: 
     data = json.load(read_file)
 
     # Looping through Data
