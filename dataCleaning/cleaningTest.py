@@ -4,9 +4,23 @@ import json
 with open('test.json') as read_file: 
     data = json.load(read_file)
 
+    # Going through data and removing Null value'd fat recipes.
     for recipe in data:
-        del recipe['date']
-        del recipe['rating']
-                
+        if recipe['fat'] == None:          
+            del recipe
+        
+        elif recipe['calories'] == None:
+            del recipe
+        
+        elif recipe['protein'] == None:
+            del recipe
 
-        # print(f"Title: {recipe['title']} \n Calories: {recipe['calories']} \n Sodium: {recipe['sodium']} \n Fat: {recipe['fat']} \n Protein: {recipe['protein']} \n\n")
+        elif recipe['sodium'] == None:
+            del recipe
+
+        elif recipe['ingredients'][0] == None or recipe['directions'][0] == None:
+            del recipe
+        
+        else:
+            with open('cleanedTest.json', 'w') as append:
+                # append
