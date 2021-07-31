@@ -1,7 +1,11 @@
 import json
 
+# Setting Files to take and clean from and send to.
+priorFile = 'formatted_recipes.json'
+postFile = 'cleanedRecipes.json'
+
 # Opening the file
-with open('test.json') as read_file: 
+with open(priorFile) as read_file: 
     data = json.load(read_file)
 
     # Going through data and removing Null value'd fat recipes.
@@ -23,12 +27,12 @@ with open('test.json') as read_file:
 
         else:
             # Open file to write to to read contents
-            with open('cleanedTest.json', 'r') as file:
+            with open(postFile, 'r') as file:
                 tempData = json.load(file)
 
             # Append    
             tempData.append(recipe)
             
             # Write back into file
-            with open('cleanedTest.json', 'w') as file:
+            with open(postFile, 'w') as file:
                 json.dump(tempData, file)
