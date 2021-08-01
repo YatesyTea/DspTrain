@@ -5,10 +5,10 @@ myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["recipeDB"]
 mycol = mydb["recipes"]
 
-# Fat content higher than 20
-myquery = { "fat": {"$gt": 50} }
+# Fat content within range
+myquery = {"fat" : {"$gte": 20,"$lte": 21}}
 
 mydoc = mycol.find(myquery)
 
 for x in mydoc:
-  print(x)
+  print(f"Fat: {x['fat']}")
