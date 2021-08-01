@@ -29,3 +29,5 @@ with open(priorFile) as read_file:
             # Write back into file
             with open(postFile, 'w') as file:
                 json.dump(tempData, file)
+            
+            print(f"Added recipe {recipe} to database")
