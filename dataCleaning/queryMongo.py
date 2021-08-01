@@ -5,10 +5,7 @@ myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["recipeDB"]
 mycol = mydb["recipes"]
 
-# Fat content higher than 50
-myquery = {{ "fat": {"$gt": 50} }}
+# Return a singular recipe
+x = mycol.find_one()
 
-mydoc = mycol.find(myquery)
-
-for x in mydoc:
-  print(x)
+print(x) 
