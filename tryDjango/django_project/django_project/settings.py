@@ -78,6 +78,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    'recipes': {
+        'Engine': 'djongo',
+        'NAME': 'recipeDB',
+        'CLIENT': 'mongodb://localhost:27017/',
     }
 }
 

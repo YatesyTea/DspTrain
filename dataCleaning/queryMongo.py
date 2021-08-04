@@ -11,4 +11,4 @@ myquery = {"fat" : {"$gte": 20,"$lte": 21}}
 mydoc = mycol.find(myquery)
 
 for x in mydoc:
-  print(f"Fat: {x['fat']}")
+  print(f"Fat: {x['title']}")

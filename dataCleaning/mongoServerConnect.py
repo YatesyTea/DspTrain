@@ -1,9 +1,9 @@
 import pymongo
 import json
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-mydb = myclient["recipeDB"]
-mycol = mydb["recipes"]
+client = pymongo.MongoClient("mongodb+srv://dbUser:<FUCKMEAT5AMPlease>@cluster0.cisj1.mongodb.net/?retryWrites=true&w=majority")
+db = client.test
+mycol = db.recipes
 
 priorFile = 'cleanedRecipes.json'
 
