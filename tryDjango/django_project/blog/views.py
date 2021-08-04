@@ -1,23 +1,20 @@
 from django.shortcuts import render
 
-posts = [
+recipes = [
     {
-        'author': 'DYates',
-        'title': 'Blog Post 1',
-        'content': 'First post mate',
-        'date': 'January 10, 2020'
-    },
-    {
-        'author': 'DYates',
-        'title': 'Blog Post 2',
-        'content': 'Second post mate',
-        'date': 'January 10, 2020'
+        'title': 'Lentil Apple and Turkey Wrap',
+        'calories': 200,
+        'fat': 10,
+        'protein': 10,
+        'sodium': 10,
+        'ingredients': 'Chicken Mate',
+        'directions': '1: Chop stuff',
     }
 ]
 
 def home(request):
     context = {
-        'posts': posts,
+        'recipes': recipes,
         'title' : 'Home'
     }
     return render(request, 'blog/home.html', context)
